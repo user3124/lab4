@@ -10,6 +10,7 @@ using System.Xml.Serialization;
 [Serializable]
 public class TextFile : IOriginator
 {
+    // Ветка dev
     public string FilePath { get; set; }
     public string Content { get; set; }
 
